@@ -1,0 +1,12 @@
+metric,value
+q1.delta_proxy_l2,0.010076623804269946
+q1.delta_proxy_max_abs,0.015616186283561873
+q1.baseline_refinement_error,2.7957944614838807e-07
+q1.corrected_refinement_error,2.763248735938505e-07
+q1.assumption_sensitivity_rel,0.8663880248569763
+q1.unc_total,0.008730266199484877
+q2.D_star,0.07171110629475136
+q2.D_max,0.4727968669566435
+q2.D_star_alt,6.017751406781911e-07
+q2.replication_rel_diff,0.9999916083411236
+q2.unc_total,0.07171050451961068

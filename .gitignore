@@ -4,6 +4,10 @@
 *_files/
 __pycache__/
 *.pyc
+
+# Default: ignore bulk generated outputs
 notebooks/outputs/*
-!notebooks/outputs/grqm*/
-!notebooks/outputs/grqm*/**
+
+# Keep one pinned reference artifact committed
+!notebooks/outputs/golden_run_20260302/
+!notebooks/outputs/golden_run_20260302/**
