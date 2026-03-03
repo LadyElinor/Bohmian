@@ -353,3 +353,34 @@ otebooks/outputs/grqm_quick_revert_hardening_20260302_214712/
 - Operational stress run succeeded with deterministic/non-empty logs.
 - Method dependence remains large under Euler stress path; keep BoO as exploratory diagnostic only.
 - Recommendation for broad BoO adoption: **NO-GO (defer)**.
+
+## 2026-03-03 18:15–18:23 EST — Autonomous governance/doc hardening block
+
+### Actions completed
+- Added public status banner to `README.md` (PROVEN/OPEN/BLOCKED with envelope caveat).
+- Ran fresh confirmation cycle:
+  - `python notebooks/cycle3_core_confirm.py`
+  - output: `notebooks/outputs/grqm_cycle3_core_confirm_20260303_182255/`
+- Added fresh KPI summary note:
+  - `GR_QM_KPI_SNAPSHOT_2026-03-03.md`
+- Added next-trigger operational file:
+  - `GR_QM_NEXT_CYCLE_TRIGGER_LIST_2026-03-03.md`
+- Added pre-registered edge acceptance criteria:
+  - `GR_QM_EDGE305_ACCEPTANCE_CRITERIA_PREREGISTER.md`
+- Synced governance docs with 2026-03-03 sign-off + nonlinear phase-1b cross-link:
+  - `CLAIM_STATUS_MATRIX.md`
+  - `GR_QM_MONTHLY_GATE_REPORT_01.md`
+
+### Fresh cycle quick metrics
+- pass_rate_envelope: `1.0` (20/20)
+- spearman_primary_vs_independent: `1.0`
+- `q1_refinement_max_obs_max = 2.795794e-07`
+- `q1_assumption_sensitivity_hardened_max = 0.148304`
+- `q2_D_p95_max = 0.284987`
+- `q2_D_p99_max = 0.389203`
+- `q2_true_replication_rel_diff_max = 0.0`
+
+### Scope discipline
+- No threshold mutation.
+- No claim-status mutation.
+- Core envelope caveat unchanged (`O_m>=0.305` still blocked).

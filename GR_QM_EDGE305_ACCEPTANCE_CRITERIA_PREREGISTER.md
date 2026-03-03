@@ -1,0 +1,37 @@
+# GR_QM Edge (Ω_m >= 0.305) Acceptance Criteria — Pre-Registered Draft
+
+Status: pre-registered, not yet executed as promotion evidence.
+
+## Scope
+This applies only to edge-lane mitigation attempts at and above `Ω_m = 0.305`.
+No impact on current in-core PROVEN status.
+
+## Required run pack
+1. Edge grid:
+   - `Ω_m in {0.305, 0.3075, 0.310}`
+   - declared α corridor consistent with current core lane.
+2. dt ladder:
+   - at least `{5e-4, 7.5e-4, 1e-3}`
+3. method comparators:
+   - RK4 + DOP853 mandatory
+   - Euler allowed only as stress diagnostic (non-promoting)
+4. replication path:
+   - true like-vs-like rerun for deterministic check
+
+## Pass conditions (all required)
+- `q2_D_p95 <= 0.50`
+- `q2_D_p99 <= 0.80`
+- `q2_true_replication_rel_diff <= 1e-6`
+- no unresolved null-test failure in-edge
+- no hard instability requiring ad-hoc exclusions beyond predeclared policy
+
+## Hold / fail conditions
+- any gate above fails at any declared edge point
+- method disagreement (RK4 vs DOP853) exceeds predeclared tolerance and is not localized/mitigated
+- new exclusions introduced post-hoc without prior registration
+
+## Governance rule
+Even if technical pass occurs, edge claim remains BLOCKED until:
+- evidence is logged in ledger/matrix,
+- assumptions impacted are updated,
+- explicit governance close is recorded in monthly gate report.
