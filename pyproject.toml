@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grqm"
+version = "0.1.0"
+description = "Governance-first GR↔QM toy-model workflow with auditable numerics"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy==2.3.3",
+  "scipy==1.17.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.4.2",
+]
+
+[project.scripts]
+grqm-run-toy-model = "grqm.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
