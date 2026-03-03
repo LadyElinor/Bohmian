@@ -1,0 +1,28 @@
+{
+  "out_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_cycle2_envelope_20260301_194432",
+  "alpha_values": [
+    2.0000000000000002e-07,
+    4.308869380063765e-07,
+    9.283177667225565e-07,
+    2.0000000000000003e-06
+  ],
+  "omega_values": [
+    0.28,
+    0.30000000000000004,
+    0.32
+  ],
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_sensitivity_hardened_max": 0.2,
+    "q2_Dstar_min": 0.0001,
+    "q2_true_replication_rel_diff_max": 0.01,
+    "q2_D_p95_max": 0.5,
+    "q2_D_p99_max": 0.8
+  },
+  "aggregate": {
+    "n_runs": 12,
+    "n_pass_all_envelope": 8,
+    "q2_spike_any": false
+  }
+}

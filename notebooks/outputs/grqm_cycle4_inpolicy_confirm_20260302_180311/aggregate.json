@@ -1,0 +1,18 @@
+{
+  "n_runs": 20,
+  "pass_rate_envelope": 0.0,
+  "pearson_primary_vs_independent": 0.9998525313895748,
+  "spearman_primary_vs_independent": 1.0,
+  "ratio_mean": 1.967755798000028,
+  "ratio_std": 0.03141285801481608,
+  "policy_bounds": {
+    "ic_scale_min": 0.9993,
+    "ic_scale_max": 1.0009,
+    "dt_main_min": 0.0008,
+    "dt_main_max": 0.0012,
+    "correction_power_allowed": [
+      4,
+      5
+    ]
+  }
+}

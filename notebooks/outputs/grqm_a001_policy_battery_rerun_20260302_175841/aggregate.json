@@ -1,0 +1,22 @@
+{
+  "n_runs": 24,
+  "policy": {
+    "ordering_n_allowed": [
+      4,
+      5
+    ],
+    "dt_main_min": 0.0008,
+    "dt_main_max": 0.0012,
+    "max_local_sensitivity_vs_n5_dt1e3": 1.0,
+    "q1_refine_max": 0.005,
+    "q2_p95_max": 0.5,
+    "q2_p99_max": 0.8,
+    "q2_replication_rel_diff_max": 1e-06
+  },
+  "pass_rate": 1.0,
+  "q1_local_sensitivity_max": 0.866339147797209,
+  "q1_refinement_max_obs": 4.236270686337952e-07,
+  "q2_p95_max": 0.2704349573326371,
+  "q2_p99_max": 0.354570193366034,
+  "q2_replication_rel_diff_max": 0.0
+}

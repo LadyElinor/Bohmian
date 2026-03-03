@@ -1,0 +1,26 @@
+[
+  {
+    "assumption": "ic_a0_scale",
+    "n_samples": 9,
+    "mean_sens_rel": 30.75657453017688,
+    "max_sens_rel": 257.7784979480406
+  },
+  {
+    "assumption": "correction_power_n",
+    "n_samples": 9,
+    "mean_sens_rel": 2.227245699946395,
+    "max_sens_rel": 6.3430524581134575
+  },
+  {
+    "assumption": "combined_stress",
+    "n_samples": 3,
+    "mean_sens_rel": 0.9592786926980718,
+    "max_sens_rel": 0.9601340508801274
+  },
+  {
+    "assumption": "dt_main",
+    "n_samples": 9,
+    "mean_sens_rel": 9.884568738470863e-05,
+    "max_sens_rel": 0.00015212994096542746
+  }
+]

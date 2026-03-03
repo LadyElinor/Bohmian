@@ -1,0 +1,12 @@
+{
+  "out_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_batch_tiered_20260301_191558",
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_sensitivity_hardened_max": 0.2,
+    "q2_Dstar_min": 0.0001,
+    "q2_true_replication_rel_diff_max": 0.01,
+    "q2_method_disagreement_rel_diff_max": 0.5
+  },
+  "n_runs": 6
+}

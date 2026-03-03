@@ -1,0 +1,4 @@
+omega_m,alpha_qg,policy_q1_assumption_sensitivity_hardened,revert_q1_assumption_sensitivity_hardened,delta_revert_minus_policy,policy_pass_all_envelope,revert_pass_all_envelope
+0.29,7e-07,0.8699101441699433,0.030042424551662235,-0.839867719618281,False,True
+0.295,7e-07,0.8710860203997041,0.046573715248874506,-0.8245123051508295,False,True
+0.3,7e-07,0.8758475184973264,0.13970065546696347,-0.7361468630303629,False,True

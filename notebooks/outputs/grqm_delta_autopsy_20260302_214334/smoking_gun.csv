@@ -1,0 +1,3 @@
+type,omega_m,alpha_qg,delta_q1_delta_proxy_l2,delta_q1_refinement_max_obs,delta_q1_assumption_sensitivity_hardened,delta_q2_D_star,delta_q2_D_p95,delta_q2_D_p99,delta_q2_true_replication_rel_diff,delta_q2_method_disagreement_rel_diff,pass_all_envelope_pass,pass_all_envelope_fail,gate_flip
+first_gate_flip,0.285,3e-07,0.0,0.0,0.8469824684038009,0.0,0.0,0.0,0.0,0.0,True,False,1
+max_sensitivity_delta,0.285,3e-07,0.0,0.0,0.8469824684038009,0.0,0.0,0.0,0.0,0.0,True,False,1

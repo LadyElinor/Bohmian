@@ -1,0 +1,39 @@
+{
+  "out_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_q1_assumption_ablation_20260301_191148",
+  "corridor": [
+    {
+      "run_id": 19,
+      "alpha_qg": 1e-06,
+      "omega_m": 0.3
+    },
+    {
+      "run_id": 16,
+      "alpha_qg": 4.6415888336127725e-07,
+      "omega_m": 0.3
+    },
+    {
+      "run_id": 13,
+      "alpha_qg": 2.1544346900318822e-07,
+      "omega_m": 0.3
+    }
+  ],
+  "assumptions": {
+    "correction_power_n": [
+      4,
+      5,
+      6
+    ],
+    "ic_a0_scale": [
+      0.98,
+      1.0,
+      1.02
+    ],
+    "dt_main": [
+      0.0008,
+      0.001,
+      0.0012
+    ]
+  },
+  "csv": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_q1_assumption_ablation_20260301_191148\\q1_assumption_ablation.csv",
+  "ranking_json": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_q1_assumption_ablation_20260301_191148\\q1_assumption_ranking.json"
+}

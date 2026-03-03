@@ -1,0 +1,27 @@
+{
+  "source_minitest_csv": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_a001_closure_minitest_20260302_175542\\a001_minitest_summary.csv",
+  "n_runs": 36,
+  "n_in_policy": 24,
+  "n_out_of_policy": 12,
+  "proposed_policy": {
+    "ordering_n_allowed": [
+      4,
+      5
+    ],
+    "dt_main_min": 0.0008,
+    "dt_main_max": 0.0012,
+    "max_local_sensitivity_vs_n5_dt1e3": 1.0,
+    "q1_refine_max": 0.005,
+    "q2_p95_max": 0.5,
+    "q2_p99_max": 0.8,
+    "q2_replication_rel_diff_max": 1e-06
+  },
+  "in_policy_pass_rate": 1.0,
+  "out_of_policy_pass_rate": 0.0,
+  "in_policy_max_local_sensitivity": 0.8663391477972097,
+  "out_of_policy_min_local_sensitivity": 5.246186387649384,
+  "out_of_policy_max_local_sensitivity": 6.586769865318791,
+  "in_policy_q1_refinement_max": 4.236270686337952e-07,
+  "in_policy_q2_p95_max": 0.2704349573326371,
+  "in_policy_q2_p99_max": 0.354570193366034
+}

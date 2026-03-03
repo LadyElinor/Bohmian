@@ -1,0 +1,9 @@
+source,key,passing,failed
+aggregate.json,pass_rate_envelope,1.0,0.0
+aggregate.json,policy_bounds.correction_power_allowed,,"[4, 5]"
+aggregate.json,policy_bounds.dt_main_max,,0.0012
+aggregate.json,policy_bounds.dt_main_min,,0.0008
+aggregate.json,policy_bounds.ic_scale_max,,1.0009
+aggregate.json,policy_bounds.ic_scale_min,,0.9993
+runner_script,hardened_perturbations,"[{'ic_scale': 0.999, 'dt': 0.001, 'n': 5}, {'ic_scale': 1.001, 'dt': 0.001, 'n': 5}, {'ic_scale': 1.0, 'dt': 0.0009, 'n': 5}, {'ic_scale': 1.0, 'dt': 0.0011, 'n': 5}]",
+runner_script,policy_perturbations,,"[{'ic_scale': 0.9993, 'dt': 0.0008, 'n': 4}, {'ic_scale': 1.0009, 'dt': 0.0008, 'n': 4}, {'ic_scale': 0.9993, 'dt': 0.0012, 'n': 5}, {'ic_scale': 1.0009, 'dt': 0.0012, 'n': 5}]"

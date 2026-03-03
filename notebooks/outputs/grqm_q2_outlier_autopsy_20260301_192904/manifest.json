@@ -1,0 +1,15 @@
+{
+  "out_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_q2_outlier_autopsy_20260301_192904",
+  "alphas": [
+    1.2e-07,
+    1.5e-07,
+    1.8e-07,
+    2.1544346900318822e-07
+  ],
+  "dts": [
+    0.001,
+    0.0005,
+    0.00025
+  ],
+  "n_rows": 12
+}

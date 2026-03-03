@@ -1,0 +1,9 @@
+metric,mean_abs_delta,max_abs_delta
+q1_assumption_sensitivity_hardened,0.8118074156348417,0.8469824684038009
+q1_delta_proxy_l2,0.0,0.0
+q1_refinement_max_obs,0.0,0.0
+q2_D_star,0.0,0.0
+q2_D_p95,0.0,0.0
+q2_D_p99,0.0,0.0
+q2_true_replication_rel_diff,0.0,0.0
+q2_method_disagreement_rel_diff,0.0,0.0

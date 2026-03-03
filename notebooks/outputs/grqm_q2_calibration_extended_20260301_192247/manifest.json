@@ -1,0 +1,17 @@
+{
+  "out_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_q2_calibration_extended_20260301_192247",
+  "n_runs": 10,
+  "alpha_values": [
+    1e-07,
+    1.5e-07,
+    2.1544346900318822e-07,
+    3e-07,
+    4.6415888336127725e-07,
+    7e-07,
+    1e-06,
+    1.5e-06,
+    2e-06,
+    3e-06
+  ],
+  "corr_alpha_vs_t_first": 0.9998752506356718
+}

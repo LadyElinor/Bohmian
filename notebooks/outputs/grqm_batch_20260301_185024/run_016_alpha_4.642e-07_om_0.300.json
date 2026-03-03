@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "seed": 42,
+    "units": "dimensionless",
+    "model": "FRW-inspired minisuperspace toy ODE",
+    "ic": {
+      "t0": 0.0,
+      "t1": 3.0,
+      "a0": 0.1,
+      "v0": 1.5
+    },
+    "params": {
+      "omega_m": 0.3,
+      "omega_l": 0.7,
+      "alpha_qg": 4.6415888336127725e-07
+    }
+  },
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_sensitivity_max": 0.5,
+    "q2_Dstar_min": 0.0001,
+    "q2_replication_rel_diff_max": 0.5
+  },
+  "q1": {
+    "delta_proxy_l2": 0.045642962745745384,
+    "delta_proxy_max_abs": 0.06976829221545866,
+    "delta_proxy_sign_final": 1.0,
+    "baseline_refinement_error": 2.7957944614838807e-07,
+    "corrected_refinement_error": 2.657461580226414e-07,
+    "delta_proxy_n4_l2": 0.00622750547412659,
+    "assumption_sensitivity_rel": 0.863560446134537,
+    "uncertainty": {
+      "stat": 0.0,
+      "sys": 2.7957944614838807e-07,
+      "epi": 0.03941545727161794,
+      "total": 0.039415457272609485
+    }
+  },
+  "q2": {
+    "D_star": 0.06648980728457494,
+    "D_max": 0.3906670558839572,
+    "D_star_alt": 5.708576760809752e-07,
+    "D_max_alt": 7.2249407397501075e-06,
+    "replication_rel_diff": 0.999991414358074,
+    "uncertainty": {
+      "stat": 0.0,
+      "sys": 0.06648923642689887,
+      "epi": 0.0,
+      "total": 0.06648923642689887
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "n_runs": 36,
+  "criteria": {
+    "q1_delta_min": 0.0001,
+    "q1_refine_max": 0.005,
+    "q2_p95_max": 0.5,
+    "q2_p99_max": 0.8,
+    "q2_replication_rel_diff_max": 1e-06
+  },
+  "pass_q1_rate": 1.0,
+  "pass_q2_rate": 1.0,
+  "pass_joint_rate": 1.0,
+  "max_q1_sensitivity_vs_n5_dt1e3": 6.586769865318766
+}

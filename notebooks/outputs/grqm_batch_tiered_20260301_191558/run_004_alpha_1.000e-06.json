@@ -1,0 +1,21 @@
+{
+  "run_id": 4,
+  "alpha_qg": 1e-06,
+  "omega_m": 0.3,
+  "q1_delta_proxy_l2": 0.09522958011196747,
+  "q1_refinement_max_obs": 2.7957944614838807e-07,
+  "q1_assumption_sensitivity_wide": 8.163964172480554,
+  "q1_assumption_sensitivity_hardened": 0.1345028389592845,
+  "q2_D_star": 0.06162154768669734,
+  "q2_true_replication_rel_diff": 0.0,
+  "q2_method_disagreement_rel_diff": 0.999991368218216,
+  "q2_t_first_method_disagreement_1pct": 0.64225,
+  "pass_q1_effect": true,
+  "pass_q1_refinement": true,
+  "pass_q1_assumption_hardened": true,
+  "pass_q2_Dstar": true,
+  "pass_q2_true_replication": true,
+  "pass_q2_method_disagreement": false,
+  "pass_all_strict": false,
+  "pass_all_envelope": true
+}

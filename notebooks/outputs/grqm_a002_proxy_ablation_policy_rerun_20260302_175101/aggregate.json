@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ranking_spearman_min": 0.99,
+    "agreement_rel_drift_max": 0.1,
+    "stability_cv_max": 0.25
+  },
+  "nuisance_policy": {
+    "ic_scale_min": 0.9993,
+    "ic_scale_max": 1.0009,
+    "dt_main_min": 0.0009,
+    "dt_main_max": 0.0011
+  },
+  "n_cases": 7,
+  "n_in_policy": 5,
+  "in_policy_pass_rate": 1.0,
+  "all_effective_pass": true,
+  "out_of_policy_cases": [
+    "nuisance_ic_minus_0p1pct",
+    "nuisance_ic_plus_0p1pct"
+  ]
+}

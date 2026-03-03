@@ -1,0 +1,9 @@
+{
+  "n_cases": 5,
+  "criteria": {
+    "ranking_spearman_min": 0.99,
+    "agreement_rel_drift_max": 0.1,
+    "stability_cv_max": 0.25
+  },
+  "pass_rate": 0.6
+}

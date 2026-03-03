@@ -1,0 +1,85 @@
+{
+  "subset_points": [
+    {
+      "omega_m": 0.29,
+      "alpha_qg": 7e-07
+    },
+    {
+      "omega_m": 0.295,
+      "alpha_qg": 7e-07
+    },
+    {
+      "omega_m": 0.3,
+      "alpha_qg": 7e-07
+    }
+  ],
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_hardened_max": 0.18,
+    "q2_Dstar_min": 0.0001,
+    "q2_true_replication_rel_diff_max": 1e-06,
+    "q2_D_p95_max": 0.5,
+    "q2_D_p99_max": 0.8
+  },
+  "cycle4_policy_signature": [
+    {
+      "ic_scale": 0.9993,
+      "dt": 0.0008,
+      "n": 4
+    },
+    {
+      "ic_scale": 1.0009,
+      "dt": 0.0008,
+      "n": 4
+    },
+    {
+      "ic_scale": 0.9993,
+      "dt": 0.0012,
+      "n": 5
+    },
+    {
+      "ic_scale": 1.0009,
+      "dt": 0.0012,
+      "n": 5
+    }
+  ],
+  "cycle3_revert_signature": [
+    {
+      "ic_scale": 0.999,
+      "dt": 0.001,
+      "n": 5
+    },
+    {
+      "ic_scale": 1.001,
+      "dt": 0.001,
+      "n": 5
+    },
+    {
+      "ic_scale": 1.0,
+      "dt": 0.0009,
+      "n": 5
+    },
+    {
+      "ic_scale": 1.0,
+      "dt": 0.0011,
+      "n": 5
+    }
+  ],
+  "policy_summary": {
+    "n": 3,
+    "q1_assumption_sensitivity_hardened_min": 0.8699101441699433,
+    "q1_assumption_sensitivity_hardened_max": 0.8758475184973264,
+    "q1_assumption_sensitivity_hardened_mean": 0.8722812276889913,
+    "pass_fraction_q1_gate": 0.0,
+    "pass_fraction_all_envelope": 0.0
+  },
+  "revert_summary": {
+    "n": 3,
+    "q1_assumption_sensitivity_hardened_min": 0.030042424551662235,
+    "q1_assumption_sensitivity_hardened_max": 0.13970065546696347,
+    "q1_assumption_sensitivity_hardened_mean": 0.07210559842250007,
+    "pass_fraction_q1_gate": 1.0,
+    "pass_fraction_all_envelope": 1.0
+  }
+}

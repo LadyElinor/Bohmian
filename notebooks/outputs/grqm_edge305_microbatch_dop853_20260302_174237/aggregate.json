@@ -1,0 +1,8 @@
+{
+  "n_points": 3,
+  "n_success": 3,
+  "max_q2_D_p95": 0.00014341369431114526,
+  "max_q2_D_p99": 0.0001947052527393467,
+  "any_1pct_crossing": false,
+  "note": "Mitigation evidence only; does not expand envelope by itself."
+}

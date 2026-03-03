@@ -1,0 +1,68 @@
+{
+  "aggregate": {
+    "n_runs": 35,
+    "n_pass_all_envelope": 25,
+    "overall_pass_rate": 0.7142857142857143,
+    "pearson_primary_vs_independent": 0.9345893671220471,
+    "spearman_primary_vs_independent": 0.9929971988795518,
+    "ratio_mean": 1.8887569301244806,
+    "ratio_std": 0.3689628167492852,
+    "ratio_median": 1.981376921051967,
+    "ratio_min": 0.9758886240617426,
+    "ratio_max": 3.0535507475571384,
+    "proposed_omega_upper_bound": 0.31
+  },
+  "omega_stats": [
+    {
+      "omega_m": 0.28,
+      "n": 5,
+      "pass_rate_envelope": 1.0,
+      "max_q1_hardened": 0.01848576403663669
+    },
+    {
+      "omega_m": 0.285,
+      "n": 5,
+      "pass_rate_envelope": 1.0,
+      "max_q1_hardened": 0.022722480031517465
+    },
+    {
+      "omega_m": 0.29,
+      "n": 5,
+      "pass_rate_envelope": 1.0,
+      "max_q1_hardened": 0.03017320121863169
+    },
+    {
+      "omega_m": 0.295,
+      "n": 5,
+      "pass_rate_envelope": 1.0,
+      "max_q1_hardened": 0.046951590154802166
+    },
+    {
+      "omega_m": 0.3,
+      "n": 5,
+      "pass_rate_envelope": 1.0,
+      "max_q1_hardened": 0.14830378674833755
+    },
+    {
+      "omega_m": 0.305,
+      "n": 5,
+      "pass_rate_envelope": 0.0,
+      "max_q1_hardened": 9.351949972004288
+    },
+    {
+      "omega_m": 0.31,
+      "n": 5,
+      "pass_rate_envelope": 0.0,
+      "max_q1_hardened": 36.78496372926411
+    }
+  ],
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_hardened_max": 0.2,
+    "q2_Dstar_min": 0.0001,
+    "q2_true_replication_rel_diff_max": 0.01,
+    "q2_D_p95_max": 0.5,
+    "q2_D_p99_max": 0.8
+  }
+}

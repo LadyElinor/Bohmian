@@ -1,0 +1,9 @@
+*.pdf
+*.djvu
+*.zip
+*_files/
+__pycache__/
+*.pyc
+notebooks/outputs/*
+!notebooks/outputs/grqm*/
+!notebooks/outputs/grqm*/**

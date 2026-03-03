@@ -1,0 +1,19 @@
+{
+  "n_scales": 24,
+  "criteria": {
+    "ranking_spearman_min": 0.99,
+    "agreement_rel_drift_max": 0.1,
+    "stability_cv_max": 0.25
+  },
+  "pass_count": 17,
+  "pass_rate": 0.7083333333333334,
+  "pass_band_ic_scale": [
+    0.9993,
+    1.0009
+  ],
+  "pass_band_ic_delta_pct": [
+    -0.07000000000000339,
+    0.08999999999999009
+  ],
+  "classification": "localized_controllable"
+}

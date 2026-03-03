@@ -1,0 +1,26 @@
+{
+  "batch_dir": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_batch_20260301_185024",
+  "n_runs": 21,
+  "alpha_values": [
+    1e-08,
+    2.1544346900318822e-08,
+    4.641588833612782e-08,
+    1e-07,
+    2.1544346900318822e-07,
+    4.6415888336127725e-07,
+    1e-06
+  ],
+  "omega_m_values": [
+    0.25,
+    0.3,
+    0.35
+  ],
+  "summary_csv": "C:\\Users\\arren\\.openclaw\\workspace\\Physics\\notebooks\\outputs\\grqm_batch_20260301_185024\\summary.csv",
+  "thresholds": {
+    "q1_effect_persist_min": 0.0001,
+    "q1_refinement_max": 0.005,
+    "q1_assumption_sensitivity_max": 0.5,
+    "q2_Dstar_min": 0.0001,
+    "q2_replication_rel_diff_max": 0.5
+  }
+}
