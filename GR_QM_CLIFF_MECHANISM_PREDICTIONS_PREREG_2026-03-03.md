@@ -20,4 +20,8 @@ Apply `GR_QM_CWDW001_FALSIFICATION_PROTOCOL.md` after diagnostic runs.
 
 ## Initial evidence snapshot (non-final)
 - `notebooks/outputs/grqm_cliff_prediagnostic_20260303/cliff_prediagnostic_metrics.json`
+- Integrator hierarchy micro-check receipt:
+  - `GR_QM_EDGE_INTEGRATOR_HIERARCHY_NOTE_2026-03-03.md`
+  - `notebooks/outputs/grqm_edge_integrator_hierarchy_20260303_213438/edge_integrator_hierarchy_summary.json`
+- Observed clue: on the tested 3-point edge subset, adaptive/stiff-capable methods suppress RK4 edge spread by >99.9999% (q2_p95 basis).
 - This snapshot is preparatory and does not alter claim states.

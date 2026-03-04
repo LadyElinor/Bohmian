@@ -434,3 +434,22 @@ otebooks/outputs/grqm_quick_revert_hardening_20260302_214712/
 ### Interpretation
 - Cliff manifestation appears strongly path/method-sensitive in existing evidence.
 - Edge remains blocked; mechanism explanation remains mandatory before any expansion.
+
+## 2026-03-03 21:33–21:35 EST — Edge integrator hierarchy micro-scan (diagnostic)
+
+### Command executed
+- `python notebooks/edge_integrator_hierarchy_scan.py`
+
+### Artifacts
+- `notebooks/outputs/grqm_edge_integrator_hierarchy_20260303_213438/`
+- `GR_QM_EDGE_INTEGRATOR_HIERARCHY_NOTE_2026-03-03.md`
+
+### Snapshot
+- RK4 edge q2_p95 by point: `0.3678`, `0.2801`, `0.0470`
+- Tight adaptive/stiff-capable methods q2_p95 near numerical floor:
+  - DOP853 ~`1e-9`, LSODA ~`1e-8`, Radau ~`1e-10`
+- Suppression vs RK4 q2_p95: `>99.9999%` on all 3 points
+
+### Conservative interpretation
+- Strong evidence that prior edge blow-up is dominated by numerical-path effects on this subset.
+- No status change executed; edge remains blocked pending full predeclared mitigation package.
