@@ -52,6 +52,13 @@ Cross-refs:
   - `notebooks/outputs/grqm_nonlinear_scalar_phase1b_20260303_175346/nonlinear_phase1b_metrics.json`
 - Interpretation: contracts prior Euler-vs-RK spread for this narrow diagnostic lane; does not mutate claim status, thresholds, or envelope scope.
 
+## External critique follow-up (2026-03-03)
+- External critique ingested from `critique.txt`; response + actions logged in:
+  - `GR_QM_EXTERNAL_CRITIQUE_RESPONSE_2026-03-03.md`
+  - `GR_QM_CWDW001_FALSIFICATION_PROTOCOL.md`
+  - `docs/C-WDW-001_CORRECTION_DERIVATION.md`
+- Governance note: C-WDW-001 remains PROVEN in-core, but edge-cliff investigation is explicitly allowed to reopen status if falsification triggers fire.
+
 ## Claim Hygiene Checklist
 
 - [x] Does the claim have explicit scope and validity range?

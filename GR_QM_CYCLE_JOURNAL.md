@@ -384,3 +384,29 @@ otebooks/outputs/grqm_quick_revert_hardening_20260302_214712/
 - No threshold mutation.
 - No claim-status mutation.
 - Core envelope caveat unchanged (`O_m>=0.305` still blocked).
+
+## 2026-03-03 21:25 EST — External critique ingestion + governance hardening
+
+### Input
+- New critique file added by user: `critique.txt`
+
+### Actions executed
+- Wrote structured response/action doc:
+  - `GR_QM_EXTERNAL_CRITIQUE_RESPONSE_2026-03-03.md`
+- Added falsification/re-open protocol for C-WDW-001:
+  - `GR_QM_CWDW001_FALSIFICATION_PROTOCOL.md`
+- Added public derivation appendix scaffold:
+  - `docs/C-WDW-001_CORRECTION_DERIVATION.md`
+- Added public reply draft:
+  - `GR_QM_CRITIQUE_PUBLIC_REPLY_DRAFT_2026-03-03.md`
+- Added hardening-expansion plan:
+  - `GR_QM_HARDENING_EXPANSION_PLAN_2026-03-03.md`
+- Updated governance docs:
+  - `GR_QM_ACTION_PLAN.md` (Q2 explicitly numerical diagnostic, not physics observable)
+  - `CLAIM_STATUS_MATRIX.md` (external critique follow-up + reopen note)
+  - `GR_QM_NEXT_CYCLE_TRIGGER_LIST_2026-03-03.md` (derivation->prediction->diagnostic sequencing)
+
+### Scope discipline
+- No immediate claim-status mutation.
+- No threshold mutation.
+- Added explicit path for potential reopen if falsification triggers fire.

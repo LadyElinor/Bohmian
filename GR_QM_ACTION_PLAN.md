@@ -25,7 +25,8 @@ Abandon fixed week structure. Work in **short, outcome-gated cycles** (typically
 - pass_q1_assumption_hardened (< 0.20 relative sensitivity under ±0.1–1% perturbations)
 - Wide sensitivity logged but does not block if hardened passes
 
-**G-ROBUST-Q2** – Divergence metric robustness (new – mandatory)
+**G-ROBUST-Q2** – Numerical divergence diagnostic robustness (new – mandatory)
+- Q2 is treated as a **numerical validity diagnostic**, not a direct physics observable.
 - Require robust statistics: q2_D_median, q2_D_trimmed_mean, q2_D_p95, q2_D_p99, q2_spike_detected
 - Mean-only metrics (q2_D_star) cannot alone block claims
 - pass if q2_D_p95 < 0.5 AND q2_D_p99 < 0.8 (tuneable) OR spike_detected=True but bulk metrics normal

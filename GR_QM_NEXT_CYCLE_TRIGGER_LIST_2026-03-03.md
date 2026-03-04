@@ -24,5 +24,9 @@
      - fail/hold conditions.
    - Keep edge corridor blocked until criteria are passed and governance-closed.
 
-5. **Exploratory branch discipline (ongoing)**
+5. **Cliff investigation sequencing rule (new)**
+   - Execute strictly as: derivation appendix -> mechanism prediction -> diagnostic run -> governance decision.
+   - Apply `GR_QM_CWDW001_FALSIFICATION_PROTOCOL.md` after run.
+
+6. **Exploratory branch discipline (ongoing)**
    - Nonlinear and BoO lanes remain diagnostic-only unless they pass their own gates and receive separate promotion decision.
