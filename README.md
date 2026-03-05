@@ -10,6 +10,12 @@ This repo is primarily a **methodology product**: explicit envelopes, gate-drive
 - **OPEN:** `C-GRQM-001`, `C-GRQM-002` (provisional in-core support; not globally promoted)
 - **BLOCKED:** edge expansion `Ω_m >= 0.305`, and overgeneralized `C-WDW-002`
 
+### Edge boundary update (2026-03-04)
+- New diagnostic probes indicate the `Ω_m` cliff is a **semiclassical validity boundary**, not just a solver-tuning issue.
+- In-envelope corner `(Ω_m=0.300, α_qg=1e-6)` remains perturbative (`max |correction/classical| ≈ 0.0067`).
+- Edge case `(Ω_m=0.3075, α_qg=7e-7)` shows transient correction dominance (`max ratio ≈ 3.78` at `t≈1.944`, `a≈0.0106`), consistent with leaving the perturbative semiclassical regime.
+- Practical governance implication: keep edge region blocked pending either higher-order effective treatment at small `a` or an explicit `min_a` cutoff policy.
+
 Canonical source of truth: `CLAIM_STATUS_MATRIX.md`
 
 ## 30-second purpose
