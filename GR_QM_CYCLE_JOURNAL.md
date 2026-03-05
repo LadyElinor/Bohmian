@@ -485,3 +485,29 @@ otebooks/outputs/grqm_quick_revert_hardening_20260302_214712/
 - Created filled ledger-style evidence note:
   - `GR_QM_LEDGER_NOTE_EDGE_MITIGATION_FILLED_2026-03-03.md`
 - Decision in note: keep edge BLOCKED (pending companion q1/refinement/hardening/replication checks).
+
+## 2026-03-04 21:19 EST - Edge nonlinear-extension sweep (additive)
+
+### Added
+- `GR_QM_NONLINEAR_EXTENSION_PLAN_2026-03-04.md`
+- `notebooks/edge_nonlinear_extension_sweep.py`
+- `GR_QM_EDGE_NONLINEAR_EXTENSION_SUMMARY_2026-03-04.md`
+
+### Executed
+- `python notebooks/edge_nonlinear_extension_sweep.py`
+- Output: `notebooks/outputs/grqm_edge_nonlinear_extension_20260304_211921/`
+
+### Key outcomes
+- `baseline_n5`: success 12/12; worst `max_ratio=3.9160`; worst `min_a=0.00791`.
+- `higher_order_n6`: success 12/12; worst `max_ratio=4.6685`; worst `min_a=0.02539`.
+- `softcap_denom` and `tanh_gate`: solver failure 12/12 with message `Required step size is less than spacing between numbers.`
+
+### Acceptance snapshot
+- Criteria: A (`max_ratio<=0.10`), B (`min_a>=0.02`), C (solver success 100%).
+- baseline_n5: A fail, B fail, C pass.
+- higher_order_n6: A fail, B pass, C pass.
+- softcap_denom/tanh_gate: A/B/C fail.
+
+### Decision
+- Keep edge lane BLOCKED (unchanged).
+- Keep C-WDW-001 in-core envelope unchanged.
