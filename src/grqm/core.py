@@ -7,6 +7,8 @@ from pathlib import Path
 
 import numpy as np
 
+from .symbolic import validate_correction_term_symbolic
+
 
 @dataclass
 class Params:
@@ -91,6 +93,8 @@ def run_cycle(out_dir: Path):
     p = Params()
     ic = IC()
 
+    symbolic_validation = validate_correction_term_symbolic(correction_power=5)
+
     dt_main = 1e-3
     dt_ref = 5e-4
     dt_exact = 2.5e-4
@@ -146,6 +150,7 @@ def run_cycle(out_dir: Path):
             "model": "FRW-inspired minisuperspace toy ODE",
             "ic": asdict(ic),
             "params": asdict(p),
+            "symbolic_validation": asdict(symbolic_validation),
         },
         "thresholds": {
             "q1_effect_persist_min": 1e-4,

@@ -1,6 +1,8 @@
 # C-WDW-001 Correction Derivation (Public Appendix)
 
-Status: scaffold (to be completed before next promotion event touching C-WDW-001 scope)
+Status: scaffold + symbolic receipt attached (2026-03-05)
+
+Latest compact receipt: `../GR_QM_CWDW001_SYMBOLIC_DERIVATION_RECEIPT_2026-03-05.md`
 
 ## Purpose
 Make the "WDW-inspired" correction term explicit and auditable so C-WDW-001 rests on a visible derivation path, not only governance outcomes.

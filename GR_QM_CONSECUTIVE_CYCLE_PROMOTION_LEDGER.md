@@ -11,6 +11,7 @@ Updated from auditable artifacts only. Unknowns are marked explicitly.
 | cycle-3-a001-policy-20260302 | A-001 local policy battery over prior closure points (Omega_m 0.295/0.300; alpha 5e-7/1e-6; n in {4,5}; dt 8e-4..1.2e-3) | 100.0% | 100.0% | NA | 100.0% | 100.0% | NA |  | NO | A-001 bounded closure demonstrated in-policy; promotion still blocked by consecutive-cycle envelope rule only |
 | cycle-4-inpolicy-20260302 | Omega_m 0.285..0.300 core corridor; alpha 3e-7..1.3e-6; explicit A-001/A-002 policy perturbations | 100.0% | 100.0% | 0.0% | 100.0% | 100.0% | 0.0% |  | NO | G-ROBUST-Q1 failed under explicit in-policy perturbation mix (20/20 over threshold) |
 | cycle-4-reverted-hardening-20260302 | Omega_m 0.285..0.300 core corridor; alpha 3e-7..1.3e-6; reverted Cycle-3-equivalent hardening signature | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |  | YES | Governance hold resolved on 2026-03-02: promotion decision executed in CLAIM_STATUS_MATRIX.md. Eligibility upgraded to YES for core-envelope Q1 claim; edge expansion remains blocked at Ω_m>=0.305 |
+| governance-close-cgrqm002-20260305 | C-GRQM-002 in-core toy corridor; RK-family mini-pack dual receipt + audit | 100.0% | NA | NA | 100.0% | 100.0% | 100.0% |  | YES | Option A selected on 2026-03-05: C-GRQM-002 promoted OPEN→PROVEN (in-core only). Edge lane Ω_m>=0.305 remains blocked. |
 
 ## Notes
 - Pass rates are computed directly from each cycle artifact CSV.

@@ -1,7 +1,7 @@
 # Claim Status Matrix
 
 Created: 2026-02-28  
-Updated: 2026-03-03 (governance sign-off finalized; in-core promotion retained with edge block caveat)
+Updated: 2026-03-05 (C-GRQM-002 governance Option A executed; promoted in-core with explicit scope caveat)
 
 Purpose: enforce disciplined claim handling using **PROVEN / OPEN / BLOCKED** states.
 
@@ -21,7 +21,7 @@ Purpose: enforce disciplined claim handling using **PROVEN / OPEN / BLOCKED** st
 |---|---|---|---|---|---|---|---|---|---|
 | C-CORE-001 | Physics mastery improves when sequence follows prerequisites + error feedback loops | Study OS | PROVEN | Operational outcomes + system design consistency | MASTER_DASHBOARD.md, MISTAKE_INTELLIGENCE_SYSTEM.md | — | — | Continue tracking weekly metrics | 2026-02-28 |
 | C-GRQM-001 | EFT-first discipline improves testability of GR↔QM research programs | GR↔QM | OPEN | Proxy workflow execution + governance consistency | GR_QM_TESTABILITY_BLUEPRINT.md, GR_QM_EXECUTION_LOG_8H.md | A-002, A-003, A-004 | Empirical KPI trend not yet established | Run cycle-2 with improved replication discipline | 2026-03-01 |
-| C-GRQM-002 | Exact-vs-approx divergence can provide robust test signal in this toy setting | GR↔QM numerics | OPEN (provisional in-core support) | Tiered + robust proxy test + Cycle-3 DOP853 pivot confirmation | Q1_Q2_GATE_UPDATE.md, notebooks/outputs/grqm_q2_calibration_extended_20260301_192247/summary.csv, notebooks/outputs/grqm_q2_calibration_robust_20260301_193233/summary.csv, notebooks/outputs/grqm_cycle3_q2_pivot_20260301_223823/cycle3_q2_pivot_summary.csv | A-004 | Remaining blocker for full PROVEN is multi-cycle promotion policy, not current core-metric failure | Keep OPEN at global level; adopt DOP853 pivot as preferred approx family in core and require repeated-cycle confirmation | 2026-03-01 |
+| C-GRQM-002 | Exact-vs-approx divergence can provide robust test signal in this toy setting | GR↔QM numerics | PROVEN (in-core toy envelope) | Tiered + robust proxy test + Cycle-3 DOP853 pivot confirmation + dual RK-family mini-pack receipts + dual-receipt audit + governance close package | Q1_Q2_GATE_UPDATE.md, notebooks/outputs/grqm_q2_calibration_extended_20260301_192247/summary.csv, notebooks/outputs/grqm_q2_calibration_robust_20260301_193233/summary.csv, notebooks/outputs/grqm_cycle3_q2_pivot_20260301_223823/cycle3_q2_pivot_summary.csv, notebooks/outputs/grqm_cgrqm002_rk_family_minipack_20260305_171537/summary.json, notebooks/outputs/grqm_cgrqm002_rk_family_minipack_20260305_184849/summary.json, notebooks/outputs/grqm_cgrqm002_dual_receipt_audit_20260305_185746/dual_receipt_audit_report.json, GR_QM_CGRQM002_GOVERNANCE_DECISION_PACKAGE_2026-03-05.md, GR_QM_CGRQM002_CLOSURE_NOTE_2026-03-05.md | A-004 | Scope caveat: promotion applies only to current in-core toy envelope/protocol; edge lane Ω_m>=0.305 remains blocked and out of scope. | Maintain in-core monitoring cadence; route any envelope expansion through separate preregistered edge-governance sequence. | 2026-03-05 |
 | C-WDW-001 | A semiclassical WDW-inspired correction can induce a persistent low-energy toy proxy signal | WDW proxy | PROVEN (core envelope) | Tiered-gate simulation evidence + uncertainty accounting + cycle-2 boundary mapping + cycle-3 core confirmation + A-002 IC nuisance closure sweep + A-001 bounded ordering/approx closure pass + quick-revert isolation + full reverted-hardening confirmation + explicit null-test log | Q1_Q2_GATE_UPDATE.md, notebooks/outputs/grqm_cycle2_dense_followup_20260301_215901/envelope_summary.csv, notebooks/outputs/grqm_cycle2_dense_followup_20260301_215901/proxy_agreement.csv, notebooks/outputs/grqm_cycle2_boundarycheck_20260301_222955/boundary_fit.json, notebooks/outputs/grqm_cycle2_edge305_proxycheck_20260301_223008/aggregate.json, notebooks/outputs/grqm_cycle3_core_confirm_20260301_223742/cycle3_core_confirm_summary.csv, notebooks/outputs/grqm_cycle3_core_confirm_20260302_172931/cycle3_core_confirm_summary.csv, notebooks/outputs/grqm_cycle3_core_confirm_20260302_215234/cycle3_core_confirm_summary.csv, notebooks/outputs/grqm_quick_revert_hardening_20260302_214712/aggregate.json, GR_QM_NULL_TEST_LOG.md, GR_QM_CONSECUTIVE_CYCLE_PROMOTION_LEDGER.md, GR_QM_MONTHLY_GATE_REPORT_01.md | A-003, A-005, A-006 | Scope-limited caveat: PROVEN status applies only to core envelope Ω_m<=0.300 with Cycle-3-equivalent hardening baseline; edge corridor Ω_m>=0.305 remains blocked pending dedicated mitigation evidence. | Preserve envelope guardrails; keep widened dt hardening probes exploratory-only unless policy-promoted; open next lane after monthly governance close. | 2026-03-02 |
 | C-WDW-002 | Generic equivalence-principle violation follows directly from WDW | WDW | BLOCKED | None (overgeneralized) | — | A-002 | Model dependence not specified | Keep blocked unless model class + test path are explicit | 2026-02-28 |
 
@@ -58,6 +58,26 @@ Cross-refs:
   - `GR_QM_CWDW001_FALSIFICATION_PROTOCOL.md`
   - `docs/C-WDW-001_CORRECTION_DERIVATION.md`
 - Governance note: C-WDW-001 remains PROVEN in-core, but edge-cliff investigation is explicitly allowed to reopen status if falsification triggers fire.
+
+## C-GRQM-001 confirmation trend (new row)
+
+| Run Date | Artifact | Envelope Pass | q1_refinement_max_obs_max | q1_assumption_sensitivity_hardened_max | q2_D_p95_max | q2_D_p99_max | q2_true_replication_rel_diff_max | Note |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| 2026-03-05 | `notebooks/outputs/grqm_cycle3_core_confirm_20260305_171322/cycle3_core_confirm_summary.csv` + `aggregate.json` | 20/20 (1.0) | 2.795794461483881e-07 | 0.1483037867483375 | 0.2849869470187435 | 0.3892032151943856 | 0.0 | Fresh confirmation reproducibly matches prior core-cycle maxima; supports keeping C-GRQM-001 OPEN while trend hardening continues. |
+
+## C-GRQM-002 Governance Close Decision – 2026-03-05
+
+Decision selected: **Option A (Promote now, in-core only)**.
+
+- Status transition executed: `C-GRQM-002` moved **OPEN → PROVEN (in-core toy envelope)**.
+- Basis: two independent same-day RK-family mini-pack receipts + dual-receipt audit PASS against predeclared acceptance criteria.
+- Scope caveat: promotion does **not** apply to edge lane; `Ω_m >= 0.305` remains blocked and unchanged.
+
+Cross-refs:
+- `GR_QM_CGRQM002_GOVERNANCE_DECISION_PACKAGE_2026-03-05.md`
+- `GR_QM_CGRQM002_CLOSURE_NOTE_2026-03-05.md`
+- `GR_QM_MONTHLY_GATE_REPORT_01.md`
+- `GR_QM_CONSECUTIVE_CYCLE_PROMOTION_LEDGER.md`
 
 ## Claim Hygiene Checklist
 
