@@ -1,6 +1,6 @@
 # C-WDW-001 Correction Derivation (Public Appendix)
 
-Status: scaffold + symbolic receipt attached (2026-03-05)
+Status: scaffold + symbolic receipt suite attached (2026-03-05, extended late addendum)
 
 Latest compact receipt: `../GR_QM_CWDW001_SYMBOLIC_DERIVATION_RECEIPT_2026-03-05.md`
 
@@ -37,6 +37,9 @@ Make the "WDW-inspired" correction term explicit and auditable so C-WDW-001 rest
 - Toy-model spec: `GR_QM_TOY_MODEL_SPEC.md`
 - Numerics protocol: `GR_QM_NUMERICS_PROTOCOL.md`
 - Claim matrix: `CLAIM_STATUS_MATRIX.md`
+- Symbolic receipt note: `GR_QM_SYMBOLIC_VALIDATION_NOTE_2026-03-05.md`
+- Compact symbolic derivation receipt: `GR_QM_CWDW001_SYMBOLIC_DERIVATION_RECEIPT_2026-03-05.md`
+- Core-vs-edge diagnostic pack script: `notebooks/wdw_core_edge_diagnostic_pack.py`
 
 ## Governance note
 This appendix is mandatory for maintaining interpretation strength of C-WDW-001. Until completed, C-WDW-001 remains scope-limited and interpretation-conservative.

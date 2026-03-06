@@ -12,6 +12,9 @@ Purpose: compact, auditable receipt connecting the implemented correction channe
 - Code: `src/grqm/symbolic.py`
 - Entry point: `validate_correction_term_symbolic(correction_power=5)`
 - Integrated metadata hook: `src/grqm/core.py` (`run_cycle()` now emits symbolic validation receipt under `metadata.symbolic_validation`).
+- Late addendum coverage extension:
+  - explicit symbolic exact-match checks for correction/classical/full decomposition against the implemented acceleration structure,
+  - family check compatibility used in diagnostics (`n = 4, 5, 6`).
 
 ## Compact derivation receipt
 Model channel used in code:
@@ -39,10 +42,14 @@ Symbolic check returns ratio exponent `2-n` (`-3` at default), so absolute ratio
 - This is consistent with prior edge-stiffness diagnostics and motivates keeping edge lane separately governed.
 
 ## Run-level diagnostic output
-- Repro script: `notebooks/wdw_symbolic_correction_ratio_receipt.py`
-- Output artifact (timestamped):
+- Repro scripts:
+  - `notebooks/wdw_symbolic_correction_ratio_receipt.py`
+  - `notebooks/wdw_core_edge_diagnostic_pack.py`
+- Output artifacts (timestamped):
   - `notebooks/outputs/grqm_symbolic_ratio_receipt_<timestamp>/symbolic_correction_ratio_rows.csv`
   - `notebooks/outputs/grqm_symbolic_ratio_receipt_<timestamp>/symbolic_correction_ratio_summary.json`
+  - `notebooks/outputs/grqm_core_edge_diag_pack_<timestamp>/core_edge_diag_rows.csv`
+  - `notebooks/outputs/grqm_core_edge_diag_pack_<timestamp>/core_edge_diag_summary.json`
 
 ## Governance posture
 - Diagnostic/traceability enhancement only.

@@ -50,7 +50,11 @@ Cross-refs:
 - Nonlinear scalar branch phase-1b method-controlled micro-check completed with RK-family comparator and tiny dt anchor:
   - `GR_QM_NONLINEAR_PHASE1B_NOTE_2026-03-03.md`
   - `notebooks/outputs/grqm_nonlinear_scalar_phase1b_20260303_175346/nonlinear_phase1b_metrics.json`
-- Interpretation: contracts prior Euler-vs-RK spread for this narrow diagnostic lane; does not mutate claim status, thresholds, or envelope scope.
+- Symbolic consistency + core/edge diagnostic pack receipt (late 2026-03-05):
+  - `GR_QM_SYMBOLIC_VALIDATION_NOTE_2026-03-05.md`
+  - `notebooks/outputs/grqm_core_edge_diag_pack_20260305_214242/core_edge_diag_summary.json`
+  - `notebooks/outputs/grqm_symbolic_ratio_receipt_20260305_214243/symbolic_correction_ratio_summary.json`
+- Interpretation: improves derivation/diagnostic traceability; does not mutate claim status, thresholds, or envelope scope.
 
 ## External critique follow-up (2026-03-03)
 - External critique ingested from `critique.txt`; response + actions logged in:

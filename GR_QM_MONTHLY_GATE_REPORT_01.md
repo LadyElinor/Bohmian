@@ -127,3 +127,25 @@ Tracked diagnostic checks:
 Governance effect:
 - **Diagnostic-only traceability improvement; no status/policy/threshold changes.**
 - Existing scope caveat remains: edge lane `Ω_m >= 0.305` still blocked.
+
+## Symbolic Consistency + Core/Edge Diagnostic Pack Addendum (2026-03-05 late)
+Date-stamped diagnostic receipt: **2026-03-05 (EST, late addendum)**
+
+Objective:
+- Deepen symbolic receipt coverage and pair it with reproducible core-vs-edge numeric diagnostics, without changing governance status.
+
+Receipts:
+- Extended symbolic consistency checks in `src/grqm/symbolic.py` (decomposition exact-match checks for correction/classical/full forms).
+- Expanded tests in `tests/test_symbolic_validation.py` (exact-match + invalid-power checks).
+- New diagnostic pack script: `notebooks/wdw_core_edge_diagnostic_pack.py`.
+- New output artifact: `notebooks/outputs/grqm_core_edge_diag_pack_20260305_214242/`.
+- Refreshed ratio receipt artifact: `notebooks/outputs/grqm_symbolic_ratio_receipt_20260305_214243/`.
+
+Tracked checks:
+1. Symbolic family checks pass for `n in {4,5,6}` with exact-match decomposition invariants.
+2. Core-vs-edge diagnostic rows included for `Ω_m = 0.300, 0.305, 0.3075` with trajectory-level correction/classical ratio statistics and Q1-style delta proxies.
+
+Governance effect:
+- **No claim-status changes.**
+- **No threshold/policy edits.**
+- **Edge lane block posture unchanged (`Ω_m >= 0.305` remains blocked).**
