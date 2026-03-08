@@ -33,6 +33,11 @@ Exact-vs-approx divergence signal is validated in the in-core toy envelope under
 - `0.300 < Ω_m <= 0.31`: exploratory inclusion approved under mandatory adaptive refinement + Radau + interpolation constraints, with physical caveat required
 - `Ω_m > 0.31`: BLOCKED (no mitigation evidence yet)
 
+Envelope status (quick map):
+- `Ω_m <= 0.300` → fully PROVEN, perturbative-safe in declared core workflow
+- `0.300 < Ω_m <= 0.31` → exploratory, numerically tractable with mandatory adaptive constraints; caveat: transient `correction/classical > 1`
+- `Ω_m > 0.31` → BLOCKED
+
 ## Open Claims / Lanes
 
 - **C-GRQM-001** – OPEN (process-level generalization still needs longer KPI hardening)
@@ -50,15 +55,20 @@ Exact-vs-approx divergence signal is validated in the in-core toy envelope under
 - CI + pytest invariants enforce reproducibility tiers.
 - Audit trail is canonical: ledger → claim matrix → cycle journal → monthly gate report.
 
-## Key receipt for latest edge closure
+## Key receipts
 
-- `notebooks/outputs/grqm_edge_companion_inpolicy_adaptive_checkpointed_20260307_132048/edge_companion_aggregate.json`
+- Edge packet closure:
+  - `notebooks/outputs/grqm_edge_companion_inpolicy_adaptive_checkpointed_20260307_132048/edge_companion_aggregate.json`
   - `completed_cases=20/20`
   - `pass_all_packet_rate=1.0`
   - `max_q1_refinement=1.0475384872639079e-08`
   - `max_q1_hardened=0.1483037382017592`
   - `max_q2_p95=0.0`, `max_q2_p99=0.0`
   - `max_replication=0.0`
+
+- Golden boundary receipt (`Ω_m = 0.31`):
+  - `notebooks/outputs/grqm_edge_boundary_sweep_omega031_20260308_122537/README.md`
+  - aggregate file: `notebooks/outputs/grqm_edge_boundary_sweep_omega031_20260308_122537/edge_boundary_sweep_aggregate.json`
 
 **Last updated:** March 08, 2026
 **Next update trigger:** next nonlinear scalar or LQC lane phase result, or any claim-status mutation.
