@@ -69,7 +69,7 @@ Governance note:
 - This clears the q1 refinement blocker for the targeted failing set under adaptive/dense refinement evaluation.
 - Still requires packet-level replay/alignment before any edge-lane status change.
 
-## Final Update 2026-03-06 � Full adaptive-refinement packet replay (completed)
+## Final Update 2026-03-06 � Full adaptive-refinement packet replay (completed)
 
 20-case edge mitigation packet replay with adaptive refinement, Radau baseline, and overlapping-time interpolation fix finished successfully (code 0, 20/20 cases).
 
@@ -80,7 +80,7 @@ All gates pass globally:
 - replication = 0.0
 
 ### Physical interpretation & validity caveat (unchanged)
-The O_m cliff corresponds to a genuine semiclassical regime transition. At O_m = 0.3075 the scale factor reaches min_a � 0.0106, where the WDW correction term transiently dominates classical dynamics (peak ratio 3.78). This exits the perturbative regime assumed by C-WDW-001. Adaptive refinement resolves convergence sensitivity but does not alter the underlying physics.
+The O_m cliff corresponds to a genuine semiclassical regime transition. At O_m = 0.3075 the scale factor reaches min_a � 0.0106, where the WDW correction term transiently dominates classical dynamics (peak ratio 3.78). This exits the perturbative regime assumed by C-WDW-001. Adaptive refinement resolves convergence sensitivity but does not alter the underlying physics.
 
 ### Disposition
 Edge region (O_m <= 0.31) is now numerically tractable and passes all proxy gates under adaptive Radau + interpolation constraints.
@@ -90,3 +90,18 @@ Partial envelope lift approved. Exploratory inclusion of O_m <= 0.31 is now perm
 Physical claims in this lane require the semiclassical validity caveat above.
 
 Core C-WDW-001 remains PROVEN in the original envelope; edge lane now open for exploratory work.
+
+## Update 2026-03-08 – Ω_m=0.31 boundary confirmation mini-sweep
+
+8-point log-spaced `α_qg` sweep at fixed `Ω_m = 0.31` completed.
+
+- q1_refinement pass rate = `0.625` (5/8 points `< 1e-6`); max = `1.1974e-06` (marginal fail on worst point)
+- Physical regime transition reaffirmed: all points show transient correction dominance (max ratio `3.912`, `min_a` down to `0.00791`)
+
+Interpretation:
+- Numerical tractability at `Ω_m = 0.31` is strong but not fully threshold-clean across the boundary sample.
+- The semiclassical validity caveat (transient non-perturbative dominance) remains in full force.
+
+Disposition (unchanged):
+- Partial/exploratory inclusion of `Ω_m <= 0.31` approved under mandatory adaptive refinement + Radau + interpolation.
+- Physical claims in this lane require explicit caveat: transient correction/classical ratio `> 1` at `min_a ≈ 0.01`.
