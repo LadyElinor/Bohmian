@@ -5,6 +5,8 @@ Updated: 2026-03-08 (edge extension governance addendum logged; core status unch
 
 Purpose: enforce disciplined claim handling using **PROVEN / OPEN / BLOCKED** states.
 
+Quick status anchor: `docs/CURRENT_TRUTH_2026-03.md`.
+
 ---
 
 ## Status Definitions
@@ -111,8 +113,6 @@ Claim promotion requires:
 
 Governance decision:
 - C-WDW-001 core status remains **PROVEN (core envelope)**.
-- Edge lane receives **exploratory-open extension** to `O_m <= 0.31` under mandatory constraints:
-  1) adaptive refinement,
-  2) Radau baseline stiff solver,
-  3) overlapping-time interpolation for refinement metrics.
-- Physical caveat remains mandatory for any edge-lane interpretation: transient non-perturbative dominance (`correction/classical > 1`) near `O_m=0.3075` means this lane is outside the perturbative semiclassical validity assumed by C-WDW-001.
+- Edge region (`Ω_m <= 0.31`) is now numerically tractable and passes all proxy gates under mandatory constraints: adaptive refinement + stiff solver (Radau baseline) + overlapping-time interpolation for refinement metrics.
+- Exploratory inclusion is approved under those constraints.
+- Physical claims in this lane require a mandatory semiclassical validity caveat: transient non-perturbative dominance (`correction/classical ratio > 1` near `min_a ≈ 0.01`) means this lane is outside the perturbative semiclassical validity assumed by C-WDW-001.
