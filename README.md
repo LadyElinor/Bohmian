@@ -95,9 +95,16 @@ Exploratory inclusion is approved under those constraints.
 
 Physical claims in this lane require the semiclassical validity caveat: transient non-perturbative dominance (`correction/classical ratio > 1` near `min_a ≈ 0.01`).
 
+## Session notes location
+Dated working notes were moved out of root for navigability:
+- `archive/session-notes/2026-03/`
+
+Canonical governance/status files remain in root.
+
 ## Repository layout
 - `src/grqm/` — core model, symbolic receipts, package CLI
 - `scripts/` — stable entrypoints
 - `tests/` — automated smoke/invariant tests
 - `notebooks/` — exploratory + diagnostic scripts
 - `docs/` — rationale, derivation, and reproducibility guidance
+- `archive/session-notes/` — dated narrative notes and interim packets
