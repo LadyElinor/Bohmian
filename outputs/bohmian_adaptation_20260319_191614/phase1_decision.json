@@ -1,0 +1,15 @@
+{
+  "recommendation": "PASS_FOUNDATION",
+  "rationale": "Symbolic and numerical sanity gates pass with low instability under guarded dynamics.",
+  "gates": {
+    "symbolic_receipt_ok": true,
+    "max_null_ref_l2": 0.00010984352030151551,
+    "max_solver_invariance_l2": 0.09162107801294085,
+    "unstable_rate": 0.06666666666666667
+  },
+  "caveats": [
+    "Minisuperspace adaptation remains a truncation, not a full canonical quantization proof.",
+    "No observational-fit or cosmological-parameter inference claim is made here.",
+    "Quantum potential models are controlled proxies for stress-testing only."
+  ]
+}

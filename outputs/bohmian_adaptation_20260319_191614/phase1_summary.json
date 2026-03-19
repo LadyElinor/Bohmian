@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-19T19:16:24.387760",
+  "grid": {
+    "omega_m": [
+      0.295,
+      0.3,
+      0.305,
+      0.31,
+      0.315
+    ],
+    "epsilon_q": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "metrics": {
+    "max_null_ref_l2": 0.00010984352030151551,
+    "max_solver_invariance_l2": 0.09162107801294085,
+    "unstable_rate": 0.06666666666666667,
+    "stable_points": 28,
+    "total_points": 30
+  },
+  "symbolic_receipt": {
+    "model_label": "bohmian_minisuperspace_phase1_adaptation",
+    "assumptions": [
+      "Homogeneous isotropic FRW minisuperspace truncation.",
+      "a>0 domain enforced with floor regularization.",
+      "Scalar potential approximated by V(phi)=Omega_L + 0.5 m_phi^2 phi^2 near phi=0.",
+      "Factor-ordering represented by nu in a^{-nu} d_a(a^{nu} d_a).",
+      "Principal Arg branch used for phase decomposition."
+    ],
+    "branch_choice": "principal_arg",
+    "hamiltonian_finite_on_nominal_point": true,
+    "decomposition_reconstruction_ok": true,
+    "wdw_residual_nominal_finite": true
+  },
+  "governance_note": "Phase-1 adaptation evidence package; conservative interpretation only."
+}
