@@ -1,0 +1,19 @@
+{
+  "recommendation": "HOLD_FOUNDATION",
+  "rationale": "At least one extended gate failed; retain HOLD pending tighter numerics or narrower operating region.",
+  "gates": {
+    "refinement_error_le_1e-6": false,
+    "correction_ratio_le_1": false,
+    "null_checks": false,
+    "stability_and_blowup": false,
+    "max_refinement_l2": 0.04996701658383571,
+    "max_correction_ratio": 3.8904805462331438,
+    "max_null_l2": 1.3399854907626991,
+    "unstable_rate": 0.44814814814814813
+  },
+  "caveats": [
+    "unified_dmde_proxy is a traceable approximation, not an exact symbolic unified potential.",
+    "Results are deterministic minisuperspace diagnostics and should not be over-interpreted as empirical evidence.",
+    "Solver-stress table is a numerical robustness probe, not a proof of uniqueness."
+  ]
+}
