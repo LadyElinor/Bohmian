@@ -1,0 +1,14 @@
+{
+  "seed_set": [
+    42,
+    43,
+    44
+  ],
+  "null_determinism_hash": "c973ddd07c09cf7850d6e122d99c736235ea8915607a2343b47b34e114ec1431",
+  "solver_invariance": {
+    "mean": 0.6355943381366922,
+    "min": 0.0,
+    "max": 0.991790028446743
+  },
+  "phase2_recommendation": "HOLD_FOUNDATION"
+}

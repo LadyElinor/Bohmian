@@ -1,0 +1,6 @@
+{
+  "recommendation": "Intrinsic",
+  "confidence": 0.81,
+  "rationale": "Shoulder at 0.3070 is intrinsic (invariance=0.636, form_shift=0.0000)",
+  "next_action": "re_ansatz_or_publish_methodology"
+}

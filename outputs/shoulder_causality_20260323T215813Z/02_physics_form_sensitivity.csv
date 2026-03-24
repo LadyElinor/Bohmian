@@ -1,0 +1,5 @@
+form,amplitude,shoulder_shift,delta_omega,max_ratio_change
+gaussian,7.774784369471393e-07,0.0,0.0,3e-06
+off,7.774784369471393e-07,0.0,0.0,0.0
+plateau,7.774784369471393e-07,0.0,0.0,3e-06
+unified_dmde_proxy,7.774784369471393e-07,0.0,0.0,3e-06

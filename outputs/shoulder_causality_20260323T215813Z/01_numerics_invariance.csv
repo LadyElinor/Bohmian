@@ -1,0 +1,10 @@
+solver,tol,reparam,shoulder_location,invariance_score,max_ratio_stability
+bohmian_q:euler,0.001,phase2,0.3065,0.0,0.0
+bohmian_q:heun,0.001,phase2,0.307,0.918108,0.983622
+bohmian_q:rk4,0.001,phase2,0.307,0.99179,0.998358
+bohmian_q:euler,0.001,phase2,0.3065,0.0,0.0
+bohmian_q:heun,0.001,phase2,0.307,0.916456,0.983291
+bohmian_q:rk4,0.001,phase2,0.315,0.988895,0.997779
+bohmian_q:euler,0.001,phase2,0.3065,0.0,0.0
+bohmian_q:heun,0.001,phase2,0.307,0.916361,0.983272
+bohmian_q:rk4,0.001,phase2,0.315,0.988739,0.997748

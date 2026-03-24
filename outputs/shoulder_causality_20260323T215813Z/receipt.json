@@ -1,0 +1,26 @@
+{
+  "run_id": "shoulder_causality_20260323T215813Z",
+  "config_hash": "c53671606d603e92",
+  "run_fingerprint": {
+    "timestamp_utc": "20260323T215813Z",
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "2.3.3"
+  },
+  "seed": 42,
+  "num_seeds": 3,
+  "null_determinism_hash": "c973ddd07c09cf7850d6e122d99c736235ea8915607a2343b47b34e114ec1431",
+  "reproducibility_hash": "72637f702c1ffeecc8f76392934e0fe9a171023d75996767aa0d2fda8a102639",
+  "status": "COMPLETE",
+  "artifacts_generated": [
+    "01_numerics_invariance.csv",
+    "02_physics_form_sensitivity.csv",
+    "03_bifurcation_map.csv",
+    "decision.json",
+    "summary.md",
+    "summary.json",
+    "failure_density_by_omega.csv",
+    "invariance_scores.json",
+    "receipt.json"
+  ]
+}

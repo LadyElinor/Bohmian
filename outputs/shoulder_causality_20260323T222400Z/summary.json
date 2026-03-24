@@ -1,0 +1,10 @@
+{
+  "run_id": "shoulder_causality_20260323T222400Z",
+  "config_hash": "c53671606d603e92",
+  "decision": "Intrinsic",
+  "confidence": 0.81,
+  "shoulder_location": 0.307,
+  "invariance_score": 0.6355943381366922,
+  "form_shift_delta": 0.0,
+  "grqm_root": "C:\\Users\\arren\\.openclaw\\workspace\\repos\\GRQM"
+}
