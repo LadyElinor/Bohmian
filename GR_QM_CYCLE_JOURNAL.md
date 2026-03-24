@@ -553,7 +553,7 @@ From `edge_companion_full_aggregate.json`:
 - Edge lane remains BLOCKED.
 - Primary blocker is now sharply localized: q1 refinement stability at edge.
 
-## 2026-03-08 12:08 EDT — Edge packet closure milestone (first full edge-pass packet)
+## 2026-03-08 12:08 EDT ï¿½ Edge packet closure milestone (first full edge-pass packet)
 
 ### Run completion
 - Resumed checkpointed in-policy adaptive packet:
@@ -575,7 +575,7 @@ From `edge_companion_full_aggregate.json`:
 - Core claim scope unchanged (C-WDW-001 remains PROVEN in original core envelope).
 - Edge lane opened for exploratory inclusion up to `O_m <= 0.31` with mandatory caveat on non-perturbative transient regime.
 
-## 2026-03-11 09:18 EST — SN diagnostics lane (`t_max` extension) completion
+## 2026-03-11 09:18 EST ï¿½ SN diagnostics lane (`t_max` extension) completion
 
 ### Commands / artifacts
 - Runner: `python notebooks/sn_diagnostic_lane_20260311.py`
@@ -593,8 +593,73 @@ From `edge_companion_full_aggregate.json`:
 - q1 detect (`>0.05`): crossed (`max=0.06457`, 3/6 rows above threshold)
 - q1 refinement (`<1e-6`): mixed (`4/6` pass; worst `1.29e-6`)
 - norm drift (strict/practical): fail (`max=3.00e-4`; practical fail in 6/6)
-- localization ratio expected band (1.00–1.05): fail (`1.072..1.468`)
+- localization ratio expected band (1.00ï¿½1.05): fail (`1.072..1.468`)
 - ipr shift sanity: pass (negative shifts throughout)
 
 ### Discipline note
 Result is **diagnostic only**. Detection crossing alone is not sufficient for claim upgrade due concurrent numerical/localization governance failures.
+
+## 2026-03-19 18:15ï¿½18:54 EDT ï¿½ De-risk sprint (dense boundary + numerics hardening)
+
+### Scope executed
+- Dense boundary mapping around O_m?[0.300,0.312] with 0.001 step.
+- Denser a_qg sampling in [3e-7, 1.5e-6] (13 samples).
+- Numerics hardening stress sweep (RK4/Heun/Euler at multiple dt) + local stiffness/condition diagnostics.
+- Governance artifact emission in canonical chain format (`decision.json`, `summary.json`, `summary.md`).
+
+### Artifacts
+- `outputs/sprint_20260319_181053_derisk/01_boundary_map_dense.csv`
+- `outputs/sprint_20260319_181053_derisk/02_solver_stiffness_sweep.csv`
+- `outputs/sprint_20260319_181053_derisk/03_null_surrogate_checks_dense.csv`
+- `outputs/sprint_20260319_181053_derisk/summary.json`
+- `outputs/sprint_20260319_181053_derisk/decision.json`
+- `outputs/sprint_20260319_181053_derisk/summary.md`
+
+### Outcome (governance)
+- Recommendation: **HOLD**
+- Rationale: transition zone remains partial and numerically stress-sensitive under hardening sweeps.
+
+### Key metrics
+- Boundary pass rate: `0.1301775` (13.0%).
+- Worst `|correction|/|classical|`: `9.1158` (fails =1 bound).
+- Global min `a`: `0.007916` (fails 0.01 floor).
+- Max solver stress L2 vs RK4(dt=2.5e-4): `25.5917`.
+- Max Jacobian condition proxy: `1.4199e6`.
+
+### Notes / interpretation
+- Dense map isolated a narrow pass corridor near O_m=0.300ï¿½0.301; O_m=0.302 failed envelope across sampled a_qg.
+- Null baselines remain informative but do not offset high stress sensitivity in edge regimes.
+- Next required evidence before any promotion: adaptive/stiff-solver cross-check (e.g., Radau/BDF/LSODA family) with tolerance ladder and invariance receipts.
+
+## 2026-03-23 18:16â€“18:41 EDT â€” Shoulder causality sprint closure (Bohmian lane)
+
+### Scope executed
+- Wired sprint runner to real `src/grqm/bohmian_probe/runner_phase2.py` outputs.
+- Ran preflight on actual repo paths (`repos/GRQM/tests/bohmian_probe`): **12 passed**.
+- Executed causality packet twice (second run post hardening patch):
+  - `outputs/shoulder_causality_20260323T215813Z/`
+  - `outputs/shoulder_causality_20260323T222400Z/`
+
+### Final confirmatory verdict
+- Recommendation: **Intrinsic**
+- Confidence: **0.81**
+- Shoulder location: **~0.3070**
+- Invariance score: **0.6356**
+- Form-shift delta: **0.0000**
+
+### Interpretation
+- Evidence favors **model-intrinsic envelope limit** over pure numerics-only artifact in the current minisuperspace ansatz family.
+- Converges with prior boundary/stress/graph diagnostics around the same shoulder region.
+
+### Operational hardening outcome
+- Fixed false-fail tail risk from Windows cp1252 console encoding (`UnicodeEncodeError` on emoji print).
+- Applied:
+  - UTF-8-safe stdout reconfigure
+  - ASCII-only completion print
+  - `datetime.now(UTC)` replacement for deprecated `utcnow()`
+- Scientific artifacts were valid in both runs; hardening prevents mislabeling future autonomous completions.
+
+### Decision fork (post-confirmation)
+1. Methods-note publication lane = **PRIMARY**
+2. Re-ansatz probe lane = **SECONDARY** (bounded quick card only)
+3. No broad physical/observational expansion claim executed.

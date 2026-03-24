@@ -101,6 +101,15 @@ Claim promotion requires:
 - OPEN → PROVEN: evidence hardening + no unresolved high-impact assumption conflict.
 - BLOCKED → OPEN: blocker explicitly resolved and logged in failure/assumption registers.
 
+## Shoulder causality sprint update (2026-03-23)
+
+- Confirmatory causality runs (post hardening) produced consistent attribution artifacts:
+  - `outputs/shoulder_causality_20260323T215813Z/decision.json`
+  - `outputs/shoulder_causality_20260323T222400Z/decision.json`
+- Final recommendation remained **Intrinsic** with confidence `0.81` and shoulder pinned near `Ω_m≈0.3070`.
+- Interpretation scope: this is a **diagnostic attribution result** for current ansatz lanes; it does not mutate C-WDW-001/C-GRQM-002 claim statuses beyond existing in-core caveats.
+- Governance action: method-publication lane prioritized; re-ansatz exploration remains optional and bounded.
+
 ## Edge extension governance update (2026-03-08)
 
 - New receipt (full completion):

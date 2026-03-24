@@ -12,6 +12,7 @@ Updated from auditable artifacts only. Unknowns are marked explicitly.
 | cycle-4-inpolicy-20260302 | Omega_m 0.285..0.300 core corridor; alpha 3e-7..1.3e-6; explicit A-001/A-002 policy perturbations | 100.0% | 100.0% | 0.0% | 100.0% | 100.0% | 0.0% |  | NO | G-ROBUST-Q1 failed under explicit in-policy perturbation mix (20/20 over threshold) |
 | cycle-4-reverted-hardening-20260302 | Omega_m 0.285..0.300 core corridor; alpha 3e-7..1.3e-6; reverted Cycle-3-equivalent hardening signature | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% | 100.0% |  | YES | Governance hold resolved on 2026-03-02: promotion decision executed in CLAIM_STATUS_MATRIX.md. Eligibility upgraded to YES for core-envelope Q1 claim; edge expansion remains blocked at Ω_m>=0.305 |
 | governance-close-cgrqm002-20260305 | C-GRQM-002 in-core toy corridor; RK-family mini-pack dual receipt + audit | 100.0% | NA | NA | 100.0% | 100.0% | 100.0% |  | YES | Option A selected on 2026-03-05: C-GRQM-002 promoted OPEN→PROVEN (in-core only). Edge lane Ω_m>=0.305 remains blocked. |
+| shoulder-causality-20260323 | Omega_m 0.305..0.317 shoulder causality attribution packet (alpha_qg + Bohmian-Q) | NA | NA | 63.6% (invariance) | NA | NA | NA |  | NO | Attribution result: Intrinsic (0.81), shoulder ~0.3070, form-shift delta 0.0000. Non-promoting diagnostic lane; methods-note prioritized. |
 
 ## Notes
 - Pass rates are computed directly from each cycle artifact CSV.
